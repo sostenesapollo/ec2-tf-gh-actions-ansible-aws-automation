@@ -12,7 +12,7 @@ env:
   IMAGE_NAME: nodomain
   INSTANCE_TYPE: t2.micro
   # DOMAIN: yourdomain.com
-  ECR_REPOSITORY: application-generic-images
+  ECR_REPOSITORY: generic-images-jeje
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
