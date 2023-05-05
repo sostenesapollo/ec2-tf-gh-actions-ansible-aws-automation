@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches: [no-domain]
+    branches: [master]
 
 permissions:
   contents: read
